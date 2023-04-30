@@ -1,0 +1,120 @@
+body {
+  background-color: antiquewhite;
+}
+#MovingElement {
+  color: rgba(178, 0, 238, 0.7);
+  font-size: 80px;
+}
+#MainImage {
+  width: 100%;
+  height: 100%;
+}
+#OverLapping {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 1000px;
+  height: 600px;
+}
+.button {
+  border: 1px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline;
+  font-size: 12px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #4caf50;
+}
+.button1:hover {
+  background-color: #4caf83;
+  color: black;
+}
+.button2 {
+  background-color: rgb(255, 99, 71);
+}
+.button2:hover {
+  background-color: #4caf83;
+  color: black;
+}
+.button3 {
+  background-color: #006ca0;
+}
+.button3:hover {
+  background-color: #4caf83;
+  color: black;
+}
+.header1 {
+  display: grid;
+  background-color: yellowgreen;
+  border: 5px solid blueviolet;
+  height: 5px;
+  width: 2px;
+  text-align: center;
+  padding: 15px 20px;
+}
+/* NOW THIS SECTION CONTAIN ABOUT US STYLE : */
+#aboutus {
+  background: linear-gradient(to right, white, red, yellowgreen);
+}
+header {
+  border: 5px solid black;
+  font-size: 65px;
+  text-align: center;
+  background: linear-gradient(to right, white, yellowgreen);
+}
+/* IN THIS SECTION WE WILL STYLE CONTACT US PAGE : */
+#body {
+  background-color: darkgoldenrod;
+}
+#form {
+  display: block;
+  border: 5px solid black;
+  padding: 14px 328px;
+  cursor: pointer;
+  font-size: 10px;
+}
+#button {
+  display: block;
+  border: 5px solid black;
+  width: 50px;
+  background-color: antiquewhite;
+  padding: 1px 230px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  border: 5px solid black;
+}
+#button:hover {
+  background-color: aquamarine;
+  color: black;
+}
+/* In this section we will style our Menu page :  */
+.OURMENU {
+  background: linear-gradient(to top, red, yellowgreen, white);
+}
+.Row {
+  display: inline-block;
+}
+h1 {
+  border: 5px solid black;
+  display: block;
+  text-align: center;
+}
+h2 {
+  border: 5px solid black;
+  display: block;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 45%;
+  /* padding: 5px; */
+}
+.One {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
